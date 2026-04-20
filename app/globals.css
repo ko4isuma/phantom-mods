@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Prevent GSAP opacity:0 flash — elements are visible by default */
+.hero-badge, .hero-title, .hero-sub, .hero-cta, .hero-stats,
+.hero-taglines, .hero-badges, .feature-card, .earnings-card,
+.main-card, .soon-card, .step-card, .faq-item {
+  opacity: 1;
+  will-change: transform, opacity;
+}
+
+/* Only hide when GSAP is ready to animate */
+body.gsap-ready .hero-badge,
+body.gsap-ready .hero-title,
+body.gsap-ready .hero-sub,
+body.gsap-ready .hero-cta,
+body.gsap-ready .hero-stats,
+body.gsap-ready .hero-taglines,
+body.gsap-ready .hero-badges,
+body.gsap-ready .feature-card,
+body.gsap-ready .earnings-card {
+  opacity: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+::-webkit-scrollbar-thumb {
+  background: #6B1C2E;
+  border-radius: 3px;
+}
+
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(107, 28, 46, 0.3);
+  }
+  .glow-accent {
+    box-shadow: 0 0 20px rgba(107, 28, 46, 0.5), 0 0 40px rgba(107, 28, 46, 0.2);
+  }
+  .glow-hover:hover {
+    box-shadow: 0 0 24px rgba(107, 28, 46, 0.45), 0 0 48px rgba(107, 28, 46, 0.15);
+  }
+  .text-gradient {
+    background: linear-gradient(135deg, #ffffff 0%, #b0b0b0 50%, #6B1C2E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .section-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, rgba(107, 28, 46, 0.5) 50%, transparent 100%);
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+  }
+  .float-slow { animation: float 4s ease-in-out infinite; }
+  .float-mid  { animation: float 3.2s ease-in-out infinite 0.8s; }
+  .float-fast { animation: float 2.8s ease-in-out infinite 1.6s; }
+}
+
+/* ── Documentation content styles ─────────────────────────────────────────── */
+.doc-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(127, 47, 48, 0.3);
+}
+.doc-content h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #f0f0f0;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.doc-content p {
+  color: #9ca3af;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+.doc-content ul, .doc-content ol {
+  color: #9ca3af;
+  margin-left: 1.25rem;
+  margin-bottom: 1rem;
+  line-height: 1.75;
+}
+.doc-content ul { list-style-type: disc; }
+.doc-content ol { list-style-type: decimal; }
+.doc-content li { margin-bottom: 0.25rem; }
+.doc-content strong { color: #e5e7eb; font-weight: 600; }
+.doc-content a {
+  color: #e88080;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.doc-content a:hover { color: #ffaaaa; }
+.doc-content code {
+  background: rgba(255,255,255,0.08);
+  color: #e88080;
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 0.875em;
+}
+.doc-content pre {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(127, 47, 48, 0.3);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+.doc-content pre code {
+  background: none;
+  padding: 0;
+  color: #d1d5db;
+}
+.doc-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+.doc-content th {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  color: #9ca3af;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(127,47,48,0.3);
+}
+.doc-content td {
+  padding: 0.5rem 0.75rem;
+  color: #d1d5db;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.doc-content kbd {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #e5e7eb;
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+  font-size: 0.875em;
+}
