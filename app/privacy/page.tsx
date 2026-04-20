@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const sections = [
   {
     title: '1. Introduction',
-    content: `Phantom Mods ("we", "us", or "our") operates the phantom-mods.com website and associated software. This Privacy Policy explains how we collect, use, and safeguard any information when you visit our website or use our software. By using the Service, you agree to the practices described in this policy.`,
+    content: `Phantom Mods ("we", "us", or "our") operates the phantom-mods.net website and associated software. This Privacy Policy explains how we collect, use, and safeguard any information when you visit our website or use our software. By using the Service, you agree to the practices described in this policy.`,
   },
   {
     title: '2. Information We Collect',

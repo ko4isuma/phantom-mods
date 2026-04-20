@@ -90,6 +90,15 @@ function IconMushroom() {
     </svg>
   )
 }
+function IconPickaxe() {
+  return (
+    <svg className="w-9 h-9" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M4 8l4-4 8 8-4 4L4 8z" fill="#6B1C2E" stroke="#8B2540" strokeWidth="0.5"/>
+      <path d="M11 11l9 9" stroke="#ffcdd2" strokeWidth="2" strokeLinecap="round"/>
+      <circle cx="7" cy="7" r="1.5" fill="#ffcdd2" opacity="0.8"/>
+    </svg>
+  )
+}
 function IconFire() {
   return (
     <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -132,6 +141,7 @@ const stats = [
 const earnings = [
   { icon: <IconWheat />,    activity: 'Crop Farming',    rate: '30M/hr', color: 'text-green-400' },
   { icon: <IconGhost />,    activity: 'Ghost Farming',   rate: '45M/hr', color: 'text-phantom-accent' },
+  { icon: <IconPickaxe />,  activity: 'Mining / Gemstones', rate: '35M/hr', color: 'text-purple-400' },
   { icon: <IconSword />,    activity: 'Zealot Grinding', rate: '20M/hr', color: 'text-blue-400' },
   { icon: <IconFish />,     activity: 'AFK Fishing',     rate: '15M/hr', color: 'text-cyan-400' },
   { icon: <IconMushroom />, activity: 'Mushroom Farm',   rate: '25M/hr', color: 'text-yellow-400' },
@@ -369,7 +379,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-white mb-4">The Phantom Advantage</h2>
           <p className="text-gray-400 text-lg">Real earning potential — while you sleep, work, or play</p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4">
           {earnings.map((e, i) => (
             <div key={i} className="earnings-card glass rounded-2xl p-6 border border-phantom-accent/20 hover:border-phantom-accent/40 transition-all duration-300 text-center group glow-hover">
               <div className="flex justify-center mb-3">{e.icon}</div>
