@@ -22,6 +22,58 @@ body {
   overflow-x: hidden;
 }
 
+.site-ambient-grid {
+  opacity: 0.22;
+  background-image:
+    linear-gradient(rgba(107, 28, 46, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(107, 28, 46, 0.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(circle at center, black 35%, transparent 90%);
+}
+
+.site-ambient-orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(52px);
+  opacity: 0.3;
+  animation: ambientDrift 14s ease-in-out infinite;
+}
+
+.site-ambient-orb-a {
+  width: 22rem;
+  height: 22rem;
+  top: -5rem;
+  left: -4rem;
+  background: radial-gradient(circle at center, rgba(127, 47, 48, 0.32) 0%, rgba(127, 47, 48, 0) 70%);
+}
+
+.site-ambient-orb-b {
+  width: 20rem;
+  height: 20rem;
+  right: -5rem;
+  top: 22%;
+  animation-delay: 2.8s;
+  background: radial-gradient(circle at center, rgba(107, 28, 46, 0.26) 0%, rgba(107, 28, 46, 0) 72%);
+}
+
+.site-ambient-orb-c {
+  width: 18rem;
+  height: 18rem;
+  left: 40%;
+  bottom: -6rem;
+  animation-delay: 1.4s;
+  background: radial-gradient(circle at center, rgba(180, 70, 70, 0.2) 0%, rgba(180, 70, 70, 0) 70%);
+}
+
+@keyframes ambientDrift {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(0, -14px, 0) scale(1.05);
+  }
+}
+
 /* Prevent GSAP opacity:0 flash — elements are visible by default */
 .hero-badge, .hero-title, .hero-sub, .hero-cta, .hero-stats,
 .hero-taglines, .hero-badges, .feature-card, .earnings-card,
