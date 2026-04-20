@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://phantom-mods.com/sitemap.xml
+Sitemap: https://phantom-mods.net/sitemap.xml

@@ -4,7 +4,7 @@ import ShellWrapper from '@/components/layout/ShellWrapper'
 
 export const metadata: Metadata = {
   title: 'Phantom Mods — Free Hypixel Skyblock Macro & Automation Scripts',
-  description: 'Free Hypixel Skyblock automation — Taunahi V4 with 35+ AFK scripts: farming, combat, fishing, foraging and more. The best free alternative to paid macros.',
+  description: 'Phantom Mods is a free Hypixel Skyblock macro download with Taunahi V4 free access, farming and mining automation, skyblock scripts, and free bot alternatives for money making.',
   keywords: [
     'Hypixel free script',
     'Taunahi crack',
@@ -22,17 +22,37 @@ export const metadata: Metadata = {
     'Hypixel Skyblock automation',
     'Skyblock AFK macro',
     'Hypixel macro free download',
+    'taunahi v4 free',
+    'taunahi v4 crack',
+    'taunahi crack download',
+    'taunahi free download',
+    'taunahi skyblock free',
+    'hypixel skyblock macro free',
+    'hypixel skyblock bot free download',
+    'hypixel skyblock farming macro free',
+    'skyblock mining macro',
+    'skyblock mining bot free',
+    'hypixel mining macro',
+    'taunahi v4 free download 2024',
+    'phantom mods free',
+    'phantom mods hypixel',
+    'free skyblock macro download',
+    'skyblock automation bot',
+    'hypixel skyblock script free',
+    'taunahi alternative free',
+    'best skyblock macro free',
+    'hypixel skyblock money making bot',
   ],
   robots: 'index, follow',
   openGraph: {
     title: 'Phantom Mods — Free Hypixel Skyblock Macro & Automation',
     description: 'Free Hypixel Skyblock automation — Taunahi V4 with 35+ AFK scripts: farming, ghost, fishing, foraging and more.',
     type: 'website',
-    url: 'https://phantom-mods.com',
+    url: 'https://phantom-mods.net',
     siteName: 'Phantom Mods',
     images: [
       {
-        url: 'https://phantom-mods.com/og-image.png',
+        url: 'https://phantom-mods.net/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Phantom Mods — Free Hypixel Skyblock Automation',
@@ -43,10 +63,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Phantom Mods — Free Hypixel Skyblock Macro',
     description: 'Free Hypixel Skyblock automation — 35+ AFK scripts, farming, ghost, fishing and more.',
-    images: ['https://phantom-mods.com/og-image.png'],
+    images: ['https://phantom-mods.net/og-image.png'],
   },
   alternates: {
-    canonical: 'https://phantom-mods.com',
+    canonical: 'https://phantom-mods.net',
   },
 }
 

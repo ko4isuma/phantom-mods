@@ -4,7 +4,7 @@ export async function GET(req: NextRequest) {
   const type = req.nextUrl.searchParams.get('type') ?? 'FABRIC'
 
   // Placeholder download info — replace JAR_URL with real hosted file URL
-  const JAR_URL = process.env.TAUNAHI_JAR_URL ?? 'https://phantom-mods.com/downloads/taunahi-v4.jar'
+  const JAR_URL = process.env.TAUNAHI_JAR_URL ?? 'https://phantom-mods.net/downloads/taunahi-v4.jar'
 
   if (type !== 'FABRIC') {
     return NextResponse.json(

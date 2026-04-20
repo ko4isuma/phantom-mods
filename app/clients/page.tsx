@@ -71,6 +71,48 @@ export default function ClientsPage() {
           </div>
         </div>
 
+        {/* Mining Macro card */}
+        <div className="main-card glass rounded-3xl p-8 md:p-12 border border-phantom-accent/40 mb-20 relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-phantom-accent/5 to-transparent pointer-events-none" />
+          <div className="relative">
+            <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-6">
+              <div className="min-w-0">
+                <div className="flex flex-wrap items-center gap-3 mb-2">
+                  <h2 className="text-4xl font-black text-white">Mining Macro</h2>
+                  <span className="px-3 py-1 rounded-full bg-green-500/20 border border-green-500/40 text-green-400 text-sm font-semibold whitespace-nowrap">
+                    ✅ Working
+                  </span>
+                </div>
+                <p className="text-gray-300 text-sm">Hypixel Skyblock | Gemstone, Powder, Tunnel</p>
+              </div>
+              <div className="text-left sm:text-right flex-shrink-0">
+                <div className="text-4xl font-black text-phantom-accent">Free</div>
+                <div className="text-gray-400 text-sm">Included in Phantom Mods</div>
+              </div>
+            </div>
+
+            <p className="text-gray-300 text-lg leading-relaxed mb-8 max-w-3xl">
+              Dedicated mining macro ecosystem for Hypixel Skyblock: Mining routes, Gemstone mining,
+              Powder grinding, and more automated workflows with safe AFK behavior.
+            </p>
+
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href="/dashboard"
+                className="px-6 py-3 rounded-xl bg-phantom-accent hover:bg-phantom-accent-light text-white font-semibold transition-all duration-300 glow-accent"
+              >
+                Open Dashboard →
+              </Link>
+              <Link
+                href="/docs"
+                className="px-6 py-3 rounded-xl glass border border-phantom-accent/30 text-white font-semibold hover:border-phantom-accent/60 transition-all duration-300"
+              >
+                Documentation
+              </Link>
+            </div>
+          </div>
+        </div>
+
         {/* Coming Soon section */}
         <div className="mb-10">
           <h3 className="text-3xl font-bold text-white mb-2">Coming Soon</h3>

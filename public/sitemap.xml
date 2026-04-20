@@ -1,122 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://phantom-mods.com/</loc>
+    <loc>https://phantom-mods.net/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/clients</loc>
+    <loc>https://phantom-mods.net/clients</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/edition</loc>
+    <loc>https://phantom-mods.net/edition</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs</loc>
+    <loc>https://phantom-mods.net/docs</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/introduction</loc>
+    <loc>https://phantom-mods.net/docs/introduction</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/installation</loc>
+    <loc>https://phantom-mods.net/docs/installation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/safety-guidelines</loc>
+    <loc>https://phantom-mods.net/docs/safety-guidelines</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/farming</loc>
+    <loc>https://phantom-mods.net/docs/farming</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/combat</loc>
+    <loc>https://phantom-mods.net/docs/combat</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/fishing</loc>
+    <loc>https://phantom-mods.net/docs/fishing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/foraging</loc>
+    <loc>https://phantom-mods.net/docs/foraging</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/builders</loc>
+    <loc>https://phantom-mods.net/docs/builders</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/pests-visitors</loc>
+    <loc>https://phantom-mods.net/docs/pests-visitors</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/hunting</loc>
+    <loc>https://phantom-mods.net/docs/hunting</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/alchemy</loc>
+    <loc>https://phantom-mods.net/docs/alchemy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/miscellaneous</loc>
+    <loc>https://phantom-mods.net/docs/miscellaneous</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/commands</loc>
+    <loc>https://phantom-mods.net/docs/commands</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/proxies</loc>
+    <loc>https://phantom-mods.net/docs/proxies</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/docs/remote-control</loc>
+    <loc>https://phantom-mods.net/docs/remote-control</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/dashboard</loc>
+    <loc>https://phantom-mods.net/dashboard</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/support</loc>
+    <loc>https://phantom-mods.net/support</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/reviews</loc>
+    <loc>https://phantom-mods.net/reviews</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/terms</loc>
+    <loc>https://phantom-mods.net/terms</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://phantom-mods.com/privacy</loc>
+    <loc>https://phantom-mods.net/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
