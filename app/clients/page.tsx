@@ -98,16 +98,16 @@ export default function ClientsPage() {
 
             <div className="flex flex-wrap gap-3">
               <Link
-                href="/dashboard"
+                href="/clients/mining-macro"
                 className="px-6 py-3 rounded-xl bg-phantom-accent hover:bg-phantom-accent-light text-white font-semibold transition-all duration-300 glow-accent"
               >
-                Open Dashboard →
+                Open Ecosystem →
               </Link>
               <Link
-                href="/docs"
+                href="/clients/mining-macro/download"
                 className="px-6 py-3 rounded-xl glass border border-phantom-accent/30 text-white font-semibold hover:border-phantom-accent/60 transition-all duration-300"
               >
-                Documentation
+                Download .JAR
               </Link>
             </div>
           </div>
